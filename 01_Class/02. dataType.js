@@ -1,0 +1,1 @@
+//DataTypes in Javascript
