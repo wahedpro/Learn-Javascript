@@ -50,8 +50,8 @@ for(let i=0; i<friendName.length; i++){
 /*
     **So far we have learned how to print arrays using for loops. 
     But there are some other ways to print, let's learn these now **
-    1. For loops
-    2. For of loops **
+    1. For loops (We need to access the index used for loop)
+    2. For of loops (For of loop given the value not index) 
     3. for in loops
 */
 
@@ -59,6 +59,20 @@ for(let i=0; i<friendName.length; i++){
 for(let name of friendName){
     console.log("My Friend Name is: "+name);
 }
+
+//Array Methods
+
+//Push(): add to end
+friendName.push("Rakib");
+console.log(friendName);
+
+friendName.push("Hasan", "Fahim","Bublo");
+console.log(friendName);
+
+//Pop(): delete from and & return
+let removeName = friendName.pop();
+console.log(removeName);
+
 
 
 
